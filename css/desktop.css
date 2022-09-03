@@ -1,0 +1,50 @@
+header {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main > section {
+    flex-flow: row wrap;
+}
+
+h2 {
+    flex: 0 0 100%;
+}
+
+h3 {
+    padding: 0;
+}
+
+.group {
+    flex-flow: row wrap;
+}
+
+form > .group {
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input.item,
+input.item-double,
+select.item,
+select.item-double {
+    margin: 0 10px 10px 10px;
+}
+
+form > .group label {
+    margin: 10px 10px 0 10px;
+}
+
+.item {
+    flex: 1 1;
+}
+
+.item-btn {
+    flex: 1 1;
+}
+
+.item-double {
+    flex: 2 2;
+}
