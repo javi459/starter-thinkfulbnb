@@ -1,4 +1,4 @@
-/* */
+/*Mobile first view  */
 
 header {
     flex-flow: row wrap;
@@ -51,169 +51,169 @@ form > .group label {
     flex: 2 2;
 }
 
-/* mobilefirst view */
+/* Desktop view */
 
 @media (min-width: 480px) {
     
 /* -------  General Styles ------- */
 
-body {
-    font-family: "Lato", sans-serif;
-    overflow-x: hidden;
-}
+    body {
+        font-family: "Lato", sans-serif;
+        overflow-x: hidden;
+    }
 
-h2 {
-    font-size: 26px;
-    font-weight: 400;
-    margin: 0 10px 10px 10px;
-    text-align: center;
-}
+    h2 {
+        font-size: 26px;
+        font-weight: 400;
+        margin: 0 10px 10px 10px;
+        text-align: center;
+    }
 
-h3 {
-    font-size: 18px;
-    font-weight: 500;
-}
+    h3 {
+        font-size: 18px;
+        font-weight: 500;
+    }
 
-p {
-    line-height: 1.5em;
-    margin: 0;
-}
+    p {
+        line-height: 1.5em;
+        margin: 0;
+    }
 
-/* ---  Groups & Items --- */
+    /* ---  Groups & Items --- */
 
-.group {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-evenly;
-}
+    .group {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
-.item-btn {
-    flex: 0 0 100%;
-}
+    .item-btn {
+        flex: 0 0 100%;
+    }
 
-.item {
-    flex: 1;
-}
+    .item {
+        flex: 1;
+    }
 
-.item-double {
-    flex: 2;
-}
+    .item-double {
+        flex: 2;
+    }
 
-.item,
-.item-double {
-    margin: 10px;
-}
+    .item,
+    .item-double {
+        margin: 10px;
+    }
 
-/* -------  Navigation ------- */
-header {
-    display: flex;
-    flex-flow: column;
-    align-items: stretch;
+    /* -------  Navigation ------- */
+    header {
+        display: flex;
+        flex-flow: column;
+        align-items: stretch;
 
-    background-color: #ff385c;
-    padding: 20px;
-    text-align: center;
-}
+        background-color: #ff385c;
+        padding: 20px;
+        text-align: center;
+    }
 
-.logo {
-    font-family: "Pangolin", cursive;
-    font-size: 2rem;
-    color: #fff;
-}
+    .logo {
+        font-family: "Pangolin", cursive;
+        font-size: 2rem;
+        color: #fff;
+    }
 
-header nav ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}
+    header nav ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
 
-header nav ul li {
-    list-style-type: none;
-}
+    header nav ul li {
+        list-style-type: none;
+    }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0 20px 0 0;
-}
+    header nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0 20px 0 0;
+    }
 
-header nav ul li a:hover {
-    color: #bdbdbd;
-    text-decoration: none;
-    cursor: pointer;
-}
+    header nav ul li a:hover {
+        color: #bdbdbd;
+        text-decoration: none;
+        cursor: pointer;
+    }
 
-/* Section */
+    /* Section */
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;    
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 
-section img {
-    max-width: 100%;
-}
+    section img {
+        max-width: 100%;
+    }
 
-section.alternate-background {
-    background-color: #00a699;
-    color: #fff;
-}
+    section.alternate-background {
+        background-color: #00a699;
+        color: #fff;
+    }
 
-/* -------  Search Form ------- */
-form {
-    border: 2px solid #ff385c;
-    padding: 10px;
-}
+    /* -------  Search Form ------- */
+    form {
+        border: 2px solid #ff385c;
+        padding: 10px;
+    }
 
-form.group {
-    width: 90%;
-    margin: 0 20px 20px 20px;
-}
+    form.group {
+        width: 90%;
+        margin: 0 20px 20px 20px;
+    }
 
-form > .group {
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
+    form > .group {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
 
-form > .item {
-    width: 100%;
-}
+    form > .item {
+        width: 100%;
+    }
 
-form label {
-    font-weight: bold;
-}
+    form label {
+        font-weight: bold;
+    }
 
-form select,
-form input {
-    margin-bottom: 20px;
-    width: 180px;
-}
+    form select,
+    form input {
+        margin-bottom: 20px;
+        width: 180px;
+    }
 
-form button {
-    background-color: #ff385c;
-    border: none;
-    color: #fff;
-    font-size: 24px;
-    padding: 15px;
-    width: 100%;
-}
+    form button {
+        background-color: #ff385c;
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        padding: 15px;
+        width: 100%;
+    }
 
-/* -------  Footer ------- */
+    /* -------  Footer ------- */
 
-footer {
-    background-color: #ff385c;
-}
+    footer {
+        background-color: #ff385c;
+    }
 
-footer p {
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
+    footer p {
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+    }
 
 }
