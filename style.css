@@ -18,9 +18,9 @@ h3 {
     padding: 0;
 }
 
-.group {
+/* .group {
     flex-flow: row wrap;
-}
+} */
 
 form > .group {
     flex-flow: column;
@@ -203,6 +203,12 @@ form button {
     padding: 15px;
     width: 100%;
 }
+
+.vacation-form .item {
+    display: flex block;
+    flex: 1 1 auto;
+    flex-direction: column;
+  }
 
 /* -------  Footer ------- */
 
